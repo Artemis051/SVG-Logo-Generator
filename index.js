@@ -1,7 +1,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { Circle, Square, Polygon } = require('/Users/artemis/SVG-Logo/lib/shapes.js');
 const questions = require('./lib/prompts.js'); 
+const { Circle, Square, Polygon } = require('/Users/artemis/SVG-Logo/lib/shapes.js');
+
 
 const init = () => {
   inquirer.prompt(questions)
